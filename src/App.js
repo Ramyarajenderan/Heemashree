@@ -5,6 +5,7 @@
 //import StateComponentPractise from './StateComponentPractise';
 //import UserContext from './UserContex';
 import ClassLifeComponentExample from './ClassLifeComponentExample';
+import Home from './practise/Home';
 
 function App() {
 
@@ -28,7 +29,9 @@ function App() {
       {/* <UserContext.Provider value={student}>
 
       </UserContext.Provider>     */}
-      <h1>Working fine</h1>
+      <Home />
+
+      
     
     </div >
     
