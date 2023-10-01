@@ -9,31 +9,28 @@ import ClassLifeComponentExample from './ClassLifeComponentExample';
 function App() {
 
   const student = {
-    name:"Suresh" ,
-    age : 24,
+    name: "Suresh",
+    age: 24,
     address: "chennai"
   }
 
   return (
     <div>
-    
-    
+
+
       {/*<FunctionComponents />*/}
-       {/* <RouterPractise /> */}
+      {/* <RouterPractise /> */}
       {/*ClassComponent />*/}
       {/* <HookExample /> */}
       {/* <h1>hellow</h1> */}
       {/* <ClassComponentsPractice student = {student} /> */}
       {/* <StateComponentPractise /> */}
-       {/*<UserContext.Provider value={student}>
+      {/* <UserContext.Provider value={student}>
 
-       </UserContext.Provider> </UserContext>*/}
-
-       <ClassLifeComponentExample />
-
-        
+      </UserContext.Provider>     */}
+      <h1>Working fine</h1>
     
-    </div>
+    </div >
     
    
   );

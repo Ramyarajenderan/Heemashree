@@ -39,7 +39,7 @@ class ClassLifeComponentExample extends Component {
     componentDidUpdate() {
         alert("Updating Completed")
     }
-    componentWillUnMount() {
+    componentWillUnmount() {
         alert("Component Destroyed....")
     }
 }
